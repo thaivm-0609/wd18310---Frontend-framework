@@ -12,8 +12,8 @@
         <td>{{product.description}}</td>
         <td>
             <button class="btn btn-info" ng-click="onDetail(product.id)">Detail</button>
-            <button class="btn btn-success">Edit</button>
-            <button class="btn btn-warning">Xoá</button>
+            <button class="btn btn-success" ng-click="onEdit(product.id)">Edit</button>
+            <button class="btn btn-warning" ng-click="onDelete(product.id)">Xoá</button>
         </td>
     </tr>
 </table>
